@@ -15,8 +15,8 @@
           "category": "Contributed",
           "url": "https://github.com/AeroboticsGlobalTeam/Board-Variants/raw/main/aebojoystick.zip",
           "archiveFileName": "aebojoystick.zip",
-          "checksum": "SHA-256:695209dcd07425dff4a6334bcf317a430e84aa18be6445b0e30d1ea3d11826b2",
-          "size": "1329911",
+          "checksum": "SHA-256:ccae803e1ef2b7be230c3f198004ff46488e0899e8c753f37100b98cd012d6ec",
+          "size": "1332571",
           "boards": [
             {
               "name": "AEBO Joystick"
