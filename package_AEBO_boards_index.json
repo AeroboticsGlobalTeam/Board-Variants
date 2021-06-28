@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "AEBO Joystick",
+      "maintainer": "Aerobotics Global",
+      "websiteURL": "https://www.aeroboticsglobal.com/",
+      "email" : "lokeshkode@aeroboticsglobal.com",
+      "platforms":
+      [
+        {
+          "name": "AEBO Boards",
+          "architecture": "samd",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/AeroboticsGlobalTeam/Board-Variants/raw/main/aebojoystick.zip",
+          "archiveFileName": "aebojoystick.zip",
+          "checksum": "SHA-256:2fa6ab1db8429a94692fa3f747d9b4d37a2f145f784c323e2bd42c0d8a0be2b0",
+          "size": "1329912",
+          "boards": [
+            {
+              "name": "AEBO Joystick"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "name": "arm-none-eabi-gcc",
+              "packager": "arduino",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "name": "bossac",
+              "packager": "arduino",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "name": "openocd",
+              "packager": "arduino",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "name": "CMSIS",
+              "packager": "arduino",
+              "version": "4.5.0"
+            },
+            {
+              "name": "CMSIS-Atmel",
+              "packager": "arduino",
+              "version": "1.2.0"
+            }
+          ]
+        }
+        ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
